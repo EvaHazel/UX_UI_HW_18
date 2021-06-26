@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+/* I don't think the below is right, but I'm confused by the instruction "Now that you have a flex container created, we need to set the widths of the three <div> tags wrapped inside of it.
+Apply width 33% to each <div> wrapped inside to create a fully responsive row. */
+.grid-container{
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+}
+.grid-container > div {
+    grid-area: auto;
+}
